@@ -10,14 +10,15 @@ class Goodreads {
     $this->rss_link = $this->rss_link . $id;
   }
 
-  function shelf($shelf_name, $sort=null) {
+  function shelf($shelf_name, $sort=null, $order=null) {
     /**
      * Returns a 2d array: first indexed, second associative, which contains the chosen shelf of books from Goodreads
      * 
      * @param string $shelf_name Name of the shelf: read, to-read, currently-reading and any other created shelf
      * @param string $sort [Optional] How the shelf is to be sorted: title, author, avg_rating, rating, review, date_read, date_added
+     * @param string $oder [Optional] the order of the sort either 'a' or 'd'
     */
-    $shelf_rss_link = $this->rss_link . '?shelf=' . $shelf_name . (!empty($sort) ?'&sort=' . $sort : $sort);
+    $shelf_rss_link = $this->rss_link . '?shelf=' . $shelf_name . (!empty($sort) ?'&sort=' . $sort : $sort) . (!empty($order) ?'&order=' . $order : $order);
     $rss = new DOMDocument();
     $rss->load($shelf_rss_link);
 
