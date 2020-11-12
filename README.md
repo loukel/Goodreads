@@ -8,4 +8,4 @@ Goodreads does have widgets that you can use but the design is limited and they 
 
 # Functionality
 
-You can use any public shelf on your goodreads account by declaring the first parameter and you can also sort the shelf by declaring the second parameter in the shelf function. The order of the short can be declared on the third parameter, a for ascending or d for descending
+You can use any public shelf on your goodreads account by declaring the first parameter and you can also sort the shelf by declaring the second parameter in the shelf function.
