@@ -1,4 +1,12 @@
 {
   "name": "loukel/goodreads",
-  "description": "Goodreads RSS reader: PHP class that has a function to return an array of each books' attributes on a specified shelf. Therefore, you can have a dynamic bookshelf that updates when you update Goodreads. The widgets Goodreads provides are quite restrictive and are static. "
+  "description": "Goodreads RSS reader: PHP class that has a function to return an array of each books' attributes on a specified shelf. Therefore, you can have a dynamic bookshelf that updates when you update Goodreads. The widgets Goodreads provides are quite restrictive and are static. ",
+  "require": {
+    "php": ">6.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Goodreads": ""
+    }
+  }
 }
