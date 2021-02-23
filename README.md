@@ -12,7 +12,7 @@ You can use any public shelf on your goodreads account by declaring the first pa
 
 ## Installation
 
-composer require loukel/goodreads
+composer require loukel/goodreads </br>
 composer install
 
 OR
