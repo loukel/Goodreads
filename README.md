@@ -9,3 +9,12 @@ Goodreads does have widgets that you can use but the design is limited and they 
 ## Functionality
 
 You can use any public shelf on your goodreads account by declaring the first parameter and you can also sort the shelf by declaring the second parameter in the shelf function.
+
+## Installation
+
+composer require loukel/goodreads
+composer install
+
+OR
+
+git clone https://github.com/loukel/Goodreads.git
